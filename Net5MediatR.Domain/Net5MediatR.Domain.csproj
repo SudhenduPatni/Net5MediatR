@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Net5MediatR.Data\Net5MediatR.Data.csproj" />
+    <ProjectReference Include="..\Net5MediatR.Infrastructure\Net5MediatR.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
