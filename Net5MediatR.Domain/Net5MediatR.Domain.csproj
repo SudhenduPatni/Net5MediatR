@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Net5MediatR.Data\Net5MediatR.Data.csproj" />
     <ProjectReference Include="..\Net5MediatR.Infrastructure\Net5MediatR.Infrastructure.csproj" />
   </ItemGroup>

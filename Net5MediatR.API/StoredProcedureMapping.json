@@ -1,0 +1,29 @@
+{
+  "StoredProcedures": {
+    "GetAllClient": {
+      "Database": "client",
+      "Name": "[dbo].[GetAllClient]",
+      "Timeout": "3600"
+    },
+    "GetClientById": {
+      "Database": "client",
+      "Name": "[dbo].[GetClientById]",
+      "Timeout": "3600"
+    },
+    "AddClient": {
+      "Database": "client",
+      "Name": "[dbo].[AddClient]",
+      "Timeout": "3600"
+    },
+    "UpdateClient": {
+      "Database": "client",
+      "Name": "[dbo].[UpdateClientById]",
+      "Timeout": "3600"
+    },
+    "DeleteClient": {
+      "Database": "client",
+      "Name": "[dbo].[DeleteClientById]",
+      "Timeout": "3600"
+    }
+  }
+}
